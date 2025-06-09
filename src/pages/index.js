@@ -1,18 +1,21 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
 
-import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 const BlogIndex = ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata?.title || `Title`
+  const siteTitle = (
+    <>
+      <span style={{ color: "#ffffff" }}>Welcome to </span> <span style={{ color: "#0ACC74" }}>/blog</span>
+    </>
+  )
   const posts = data.allMarkdownRemark.nodes
 
   if (posts.length === 0) {
     return (
       <Layout location={location} title={siteTitle}>
-        <Bio />
+
         <p>
           No blog posts found. Add markdown posts to "content/blog" (or the
           directory you specified for the "gatsby-source-filesystem" plugin in
@@ -24,7 +27,11 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <Bio />
+      <p>
+        This place will be a collection of my thoughts and ideas. It will be my learning partner and a witness to my journey. I intend to keep this site as a documentation of my learning and growth. Feel free to read along. 
+      </p>
+
+
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
@@ -68,7 +75,7 @@ export default BlogIndex
  *
  * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
  */
-export const Head = () => <Seo title="All posts" />
+export const Head = () => <Seo title="Home" />
 
 export const pageQuery = graphql`
   {

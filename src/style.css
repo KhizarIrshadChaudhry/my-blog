@@ -52,12 +52,13 @@
   --fontSize-5: 2.074rem;
   --fontSize-6: 2.488rem;
   --fontSize-7: 2.986rem;
-  --color-primary: #005b99;
-  --color-text: #2e353f;
-  --color-text-light: #4f5969;
-  --color-heading: #1a202c;
-  --color-heading-black: black;
-  --color-accent: #d1dce5;
+  --color-primary: #0ACC74; /* links, buttons and highlights */
+  --color-text: #ffffff; /* main text color - paragraph content */
+  --color-text-light: #c1d0cb; /* caption and secondary text or qoutes */
+  --color-heading: #DDDDDD; /* h2-h6 */
+  --color-heading-black: #ffffff; /* h1 */
+  --color-accent: #d1dce5; /* accents */
+  background-color: #111111;
 }
 
 /* HTML elements */
@@ -229,11 +230,13 @@ table thead tr th {
 
 a {
   color: var(--color-primary);
+  text-decoration: none;
 }
 
 a:hover,
 a:focus {
   text-decoration: none;
+  color: rgb(228, 71, 71);
 }
 
 /* Custom classes */

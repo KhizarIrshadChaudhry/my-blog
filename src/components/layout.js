@@ -25,9 +25,14 @@ const Layout = ({ location, title, children }) => {
       <header className="global-header">{header}</header>
       <main>{children}</main>
       <footer>
-        © {new Date().getFullYear()}, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.com">Gatsby</a>
+        <div style={{textAlign: "center", display: "flex", justifyContent: "center", gap: "1rem"}}>
+          <a href="https://www.linkedin.com/in/khizar-irshad-chaudhry/">LinkedIn</a>
+          <a href="https://github.com/KhizarIrshadChaudhry">GitHub</a>
+          <a href="https://www.youtube.com/channel/UCIpMjfZC5W5sRD18oEQDb4Q">YouTube</a>
+        </div>
+        <div  style={{textAlign: "center", marginTop: "20px"}}>
+        Copyright © {new Date().getFullYear()} Khizar Irshad Chaudhry
+        </div>
       </footer>
     </div>
   )
