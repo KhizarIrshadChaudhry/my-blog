@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Khizar's Blog RSS Feed]]></title><description><![CDATA[Khizar's Blog RSS Feed]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 08 Jun 2025 17:53:25 GMT</lastBuildDate><item><title><![CDATA[Hello World!]]></title><description><![CDATA[Wow, this shit is working finally. I'm inside a  file and writing markdown stuff. Wait let me just make things a bit easier for me - let's…]]></description><link>null/hello-world/</link><guid isPermaLink="false">null/hello-world/</guid><pubDate>Sun, 08 Jun 2025 16:30:44 GMT</pubDate><content:encoded>&lt;p&gt;Wow, this shit is working finally. I&apos;m inside a &lt;code class=&quot;language-text&quot;&gt;.md&lt;/code&gt; file and writing markdown stuff. Wait let me just make things a bit easier for me - let&apos;s add visual Studio Code extensions. This will make sure that my blogging journey is a lot smoother. Weeelll, I think we need:&lt;/p&gt;
+&lt;h5&gt;&lt;strong&gt;1. Auto correction&lt;/strong&gt;&lt;/h5&gt;
+&lt;p&gt;I make typos quite a lot. Let&apos;s try to minimize that in my upcomming blogs. For that, I will be adding the &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker&quot;&gt;Code Spell Checker&lt;/a&gt;. It took me 2-seconds to install, and I&apos;m already seeing in my &lt;code class=&quot;language-text&quot;&gt;.md&lt;/code&gt; file, perfect.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/70e722eeabc5882f2a2a395a4a5622b2/51800/showingTypos.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 25.316455696202528%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAABJ0AAASdAHeZh94AAABEUlEQVR42iWQ6XKDMAyEeYuYI01IwMacxuADk9DSmb7/I20F+fGNV5JXM9pITwazcbA+wFgPH15wfoVfVqhRQ+sZ00x/tIVz4ew7/3nf2w+sW9D3ChPtkXWDqO061LUkKjSEUj36rkVVVSiKEnmegwsBISVEoyDqHo/HE0XJwbk45xfGkCQJGLsgkpVEWTzAnxlE8UVkJ0nMELMYWZqSjpGwo/6QkvnoxURK8+v1ioy43W6I1DTDLAHDaDFOK9rBoukM1GTRmgk6LDDbG9r7k3nb4Pc/YsfoHKSsIegaLgjOER0G97uTMUCvAcp5DLTs0Gb/xvAK4KpDKStUFIVoW8h+IN2BUwwlnX5EcL/ndDLDP0K+lq514gHZAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;A picture of the typos in my md file.&quot;
+        title=&quot;&quot;
+        src=&quot;/static/70e722eeabc5882f2a2a395a4a5622b2/f058b/showingTypos.png&quot;
+        srcset=&quot;/static/70e722eeabc5882f2a2a395a4a5622b2/c26ae/showingTypos.png 158w,
+/static/70e722eeabc5882f2a2a395a4a5622b2/6bdcf/showingTypos.png 315w,
+/static/70e722eeabc5882f2a2a395a4a5622b2/f058b/showingTypos.png 630w,
+/static/70e722eeabc5882f2a2a395a4a5622b2/40601/showingTypos.png 945w,
+/static/70e722eeabc5882f2a2a395a4a5622b2/51800/showingTypos.png 1196w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;em&gt;The typos can be seen in the picture above - the extension is working.&lt;/em&gt;&lt;/p&gt;
+&lt;h5&gt;&lt;strong&gt;2. A viewer for my &lt;code class=&quot;language-text&quot;&gt;.md&lt;/code&gt; files&lt;/strong&gt;&lt;/h5&gt;
+&lt;p&gt;All of my blog posts will be &lt;code class=&quot;language-text&quot;&gt;.md&lt;/code&gt; files, including this post. It would therefore make sense to install a Visual Studio Code extension, which can show me the &lt;code class=&quot;language-text&quot;&gt;.md&lt;/code&gt; file outputs in realtime. I found the &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced&quot;&gt;Markdown Preview Enhanced&lt;/a&gt; extension for this exact purpose.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/5ea9f4f43b057d02864f4e8733ec89a7/3d4b6/mdPreview.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 85.44303797468356%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAABJ0AAASdAHeZh94AAAC/klEQVR42o1U2VJaQRC9X2AefIFUqpQLXBaBIIuGTavyGVo+myo/IT6KywMuFUzMB6mUVSr4A6LscNmRRcST7qG4ISYPmapT3dMzc/rM3O4rfd3expfNTWxtbWGT7MbGBtbX1wXW1tY0/38hvby8YDgcahiNRprPaxNMr03Hn5+ftdjr6yukXq+HbDaLXC4nbD6fx8PDg7DlclnEGZlMRgOvpdNpYQuFgnaeiSXOUK1WUavVUKlUBAnPG40Gms2miPO8Xq8Ln2MTn8+yKgar5yEx6yRL+v6eSMtigTdNxrT/drxdE2/ICoRKUlWpUfZGEyopYBWqqgrlE5U8Z/BN3qoXb8gKxTVrVRTbPaiDERpDoEno9fvodrvo9fpjn96b509PT39Z/haCkN/k/PwCiUQCictLJG9ucJdKEZJIJpNIkZ9k3N4ilfwdE/Ek7bu708DE0g0RLC0HEAiGEQyvIBCKCBsMrcDr88O/tIxPgRD8vmUEI58RCq8isrKKcGQMn39JwOVyiyTS1dUVnE4XbFYFdpsCh8MG98cFWGhukI2Ym5+H0WiCyWSGyWLHvGyCgWIyrXFcr9dDr9NhdnYWLE4QLtgdRGiBw26B3WKG3UqH6YAsy3TICEVRiNAE2WCASbFAsdrIUkKDDLNZEXtkglB4Qe9mdbvh8PqgONwwOzyQLU6Y7C5Y/R4oPg/MXjdkmw2KywnLogd2rx/WRTc+zM2RuvfQ6fSYmXmH6+trSFz53358R/zsDKc/z3Acj+P45BtOTuOEU8ROTrB3cIDozg52CLu7u4hGo2T3cHh0hNjhIWKxGPb390XniDpsUt3Vqf5azRa69KU67TZarda4X7mHJ7077RP+NaQ+1VepVMIjKS0UiqhQ0ebzBZSoNrlGB9RevIctt9pgMNDAtTdGX8xFHbJTLBahUjcUqQUZwqcYN7yqVoTlpAxuAm5Vvt7k5zDep44VCkIKlqo13KstZKot5OodZGttPNY6KNTbpLaktd/kB8LknU7nD6VM+AvTPS0fRBgSTQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;A picture of the typos in my md file.&quot;
+        title=&quot;&quot;
+        src=&quot;/static/5ea9f4f43b057d02864f4e8733ec89a7/f058b/mdPreview.png&quot;
+        srcset=&quot;/static/5ea9f4f43b057d02864f4e8733ec89a7/c26ae/mdPreview.png 158w,
+/static/5ea9f4f43b057d02864f4e8733ec89a7/6bdcf/mdPreview.png 315w,
+/static/5ea9f4f43b057d02864f4e8733ec89a7/f058b/mdPreview.png 630w,
+/static/5ea9f4f43b057d02864f4e8733ec89a7/3d4b6/mdPreview.png 712w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;em&gt;We can now preview our MarkDown files. That&apos;s very useful.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;I think this is all we need for now.&lt;/p&gt;
+&lt;p&gt;Although a few things that would be really cool to add would be stuff like LaTeX support in these &lt;code class=&quot;language-text&quot;&gt;.md&lt;/code&gt; files. That would make writing mathematics so much easier. I look forward to enhancing this blog platform by adding such compatibilities (together with like and comment functionalities and animations).&lt;/p&gt;
+&lt;p&gt;This total yapping platform is powered by &lt;a href=&quot;https://www.gatsbyjs.com/&quot;&gt;Gatsby&lt;/a&gt;.&lt;/p&gt;</content:encoded></item></channel></rss>
